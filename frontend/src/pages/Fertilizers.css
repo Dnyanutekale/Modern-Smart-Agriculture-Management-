@@ -1,0 +1,104 @@
+.fertilizers-page {
+    padding: 20px;
+}
+
+.card-title-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recommendation-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.rec-item {
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    background: #f8fafc;
+    border-radius: 12px;
+    align-items: flex-start;
+}
+
+.rec-icon {
+    padding: 10px;
+    background: white;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    color: var(--color-primary);
+}
+
+.rec-content {
+    flex: 1;
+}
+
+.rec-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.rec-header h4 {
+    margin: 0;
+}
+
+.rec-details {
+    display: flex;
+    gap: 15px;
+    font-size: 0.85rem;
+    color: #64748b;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.npk-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.npk-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    background: #f1f5f9;
+    border-radius: 12px;
+}
+
+.npk-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    color: white;
+}
+
+.npk-circle.n { background: #3b82f6; }
+.npk-circle.p { background: #ef4444; }
+.npk-circle.k { background: #eab308; }
+
+.badge-success {
+    background: rgba(34, 197, 94, 0.1);
+    color: var(--color-success);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 700;
+}

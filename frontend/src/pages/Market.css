@@ -1,0 +1,89 @@
+.market-page {
+    padding: 20px;
+}
+
+.card-header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chart-container-sm {
+    height: 250px;
+}
+
+.search-bar-mini {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #f1f5f9;
+    padding: 6px 12px;
+    border-radius: 8px;
+}
+
+.search-bar-mini input {
+    border: none;
+    background: transparent;
+    font-size: 0.85rem;
+    outline: none;
+}
+
+.mandi-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.mandi-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background: #f8fafc;
+    border-radius: 12px;
+}
+
+.mandi-info p {
+    margin: 0;
+}
+
+.mandi-price {
+    text-align: right;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.price-val {
+    font-weight: 800;
+    color: var(--color-primary);
+}
+
+.trend-icon.up { color: #22c55e; }
+.trend-icon.down { color: #ef4444; }
+
+.msp-table-container {
+    overflow-x: auto;
+}
+
+.msp-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.msp-table th, .msp-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.msp-table th {
+    background: #f8fafc;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #64748b;
+}
+
+.msp-table tr:hover {
+    background: #f1f5f9;
+}

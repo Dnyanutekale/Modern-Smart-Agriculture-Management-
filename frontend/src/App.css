@@ -1,0 +1,38 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--bg-primary);
+  position: relative;
+}
+
+.main-content-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0; /* Important for flex children to not overflow */
+  margin-left: 260px; /* Match sidebar width */
+  transition: margin-left var(--transition-normal);
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* Base Utility overrides */
+.mt-3 {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  .main-content-wrapper {
+    margin-left: 0;
+  }
+  
+  .main-content {
+    padding: 1rem;
+    padding-bottom: 5rem; /* Space for mobile nav later */
+  }
+}

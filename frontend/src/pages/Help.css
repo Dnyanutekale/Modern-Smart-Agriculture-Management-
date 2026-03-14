@@ -1,0 +1,61 @@
+.help-page {
+    padding: 20px;
+}
+
+.expert-card {
+    padding: 20px;
+    background: #f8fafc;
+    border-radius: 12px;
+}
+
+.expert-info {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.expert-avatar {
+    width: 48px;
+    height: 48px;
+    background: #e2e8f0;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.expert-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.emergency-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background: #fff1f2;
+    border-radius: 12px;
+    color: #e11d48;
+}
+
+.guide-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.guide-item {
+    padding: 20px;
+    background: #f1f5f9;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.guide-item:hover {
+    transform: translateY(-5px);
+    background: white;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
